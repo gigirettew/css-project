@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+#introduction{
+    max-width: 960px;
+    margin: 0;
+    border: 2px solid #403b71;
+    padding: 20px;
+    background-color: #a9c7e1;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.container{
+    padding: 20px;
+    margin: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 30px; 
+}
+
+
+h1, 
+h2{
+    color: #403b71;
+    font-family: "Oswald", "Cambria", "Sans Serif" ;
+}
+
+h3{
+    color: #3187c7;
+    font-family: "Lora", "Cambria", "Sans Serif";
+}
+
+figcaption{
+    font-family: "Times New Roman", "Cambria", "Sans Serif";
+    color: #403b71;
+}
+
+figure{
+    margin-left: 0px;
+}
+
+a {
+    color: #134366;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff359b;
+    text-decoration: underline;
+}
+
+a:active{
+    color:#403b71;
+}
+
+a:visited{
+    color: #812dcf;
+}
+
+header p {
+    color: #3187c7;
+    font-family: Lora, "Cambria", "Sans Serif";
+}
